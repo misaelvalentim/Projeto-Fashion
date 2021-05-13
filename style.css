@@ -1,0 +1,153 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    font-size: 62.52%
+}
+/* Classe logo-page padrão para ser aplicada no header*/
+.logo-page {
+    background-image: url(images/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Classe logo-page padrão para ser no box on the bottom*/
+.box-bottom {
+    background-image: url(images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Configuração do menu*/
+.image-top {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.header-box{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+}
+.menu-content {
+    overflow: hidden;
+    background-image: radial-gradient(#8989a823, #1314335b);
+
+}
+.menu {
+    float: right;
+}
+.menu-content li {
+    list-style: none;
+    display: inline;
+
+}
+.menu-content li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+    color: #ffffff9c;
+    font-size: 1.5em;
+    transition:color 0.2s ease-in-out;
+}
+.menu-content li a:hover {
+    color: rgb(255, 255, 255);
+}
+/* Configuração do texto no topo*/
+
+.content-box {
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    height: cover;
+}
+.text-top h1 {
+    color: #254254;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.text-top p {
+    max-width: 900px;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color:rgba(0, 0, 1, 0.7)
+
+}
+
+/*Configuração dos cards*/
+
+.card-box {
+    max-width: 900px;
+    margin: 0 auto;
+    height: cover;
+    display: block;
+    text-align: center;
+}
+.card-box .card {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.card-box .card h3 {
+    font-size: 1.7em;
+    letter-spacing: 3px;
+    color:#254254;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.card-box .card p {
+    font-size: 1.2em;
+    color:rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+}
+
+/* Configuração do texto no bottom*/
+
+.box-bottom {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+.box-bottom .text-bottom {
+    padding: 80px;
+    color: white;
+}
+.box-bottom .text-bottom h2 {
+    max-width: 80%;
+    font-size: 4em;
+    font-weight: 530;
+    text-transform: uppercase;
+}
+.box-bottom .text-bottom p {
+    max-width: 60%;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.contact {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #254254;
+}
+.map {
+    display: flex; justify-content: center; align-items: center; margin: 0 auto;
+}
+footer {
+    background: rgb(5, 20, 4);
+    font-size: 1.2em;
+    color: skyblue;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 5px;
+}
